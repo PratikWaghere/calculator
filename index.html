@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculater</h1>
+        <!-- <input type="text" id="per"> -->
+        <div class="inp">
+        <p id="">
+            <input type="text" id="input" readonly>
+        </p>
+        
+        </div>
+        <div class="clc"><br>
+        <input type="button"  id="clr" value="C" onclick="myfuncationclr(' ')">
+        <input type="button" id="sqrt" value="&Sqrt;x" onclick="sqrt()">
+        <input type="button" id="inv" value="1/x" onclick="fracation()">
+        <input type="button" id="sup" value="x&sup2;" onclick="power()"><br><br>
+        <input type="button" value="(" onclick="myfuncation1('&#40;')">
+        <input type="button" value=")" onclick="myfuncation1('&#41;')">
+        <input type="button" value="x^y" onclick="myfuncation1('**')">
+        <input type="button" value="&#10149;" onclick="currclr()"><br><br>
+        <input type="button" id="one" value="1" onclick="myfuncation1('1')">
+        <input type="button" id="two" value="2" onclick="myfuncation1('2')">
+        <input type="button" id="three" value="3" onclick="myfuncation1('3')">
+        <input type="button" class="opr" id="div" value="/" onclick="opration('/')"><br><br>
+        <input type="button" id="four" value="4" onclick="myfuncation1('4')">
+        <input type="button" id="five" value="5" onclick="myfuncation1('5')">
+        <input type="button" id="six" value="6" onclick="myfuncation1('6')">
+        <input type="button" class="opr" id="mult" value="*" onclick="opration('*')"><br><br>
+        <input type="button" id="seven" value="7" onclick="myfuncation1('7')">
+        <input type="button" id="eight" value="8" onclick="myfuncation1('8')">
+        <input type="button" id="nine" value="9" onclick="myfuncation1('9')">
+        <input type="button" class="opr" id="minus" value="-" onclick="opration('-')"><br><br>
+        <input type="button" id="equal" value="=" onclick="result()" style="background-color: aquamarine;">
+        <input type="button" id="zero" value="0" onclick="myfuncation1('0')">
+        <input type="button" id="point" value="." onclick="opration('.')">
+        <input type="button" class="opr" id="plus" value="+" onclick="opration('+')">
+        </div>
+    </div>
+    <script>
+        // var clr = getElementById("clr").value;
+        // var one = getElementById("one").value;
+        // var two = getElementById("two").value;
+        // var plus = getElementById("plus").value;
+       
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
